@@ -1,6 +1,6 @@
 ##Tanjiro Log Analyser
 
-Tanjiro Log Analyzer is a bash-based cybersecurity tool that analyzes authentication logs to detect suspicious login activity.
+Tanjiro Log Analyser is a bash-based cybersecurity tool that analyzes authentication logs to detect suspicious login activity.
 
 The tool scans system logs using journalctl and identifies failed login attempts, suspicious IP addresses, and local authentication attacks.
 
