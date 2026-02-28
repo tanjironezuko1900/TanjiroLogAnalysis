@@ -1,4 +1,4 @@
-#Tanjiro Log Analyser
+## Tanjiro Log Analyser
 
 Tanjiro Log Analyser is a bash-based cybersecurity tool that analyzes authentication logs to detect suspicious login activity.
 
@@ -6,7 +6,7 @@ The tool scans system logs using journalctl and identifies failed login attempts
 
 This project demonstrates basic Security Operations Center (SOC) log analysis using bash scripting.
 
-#FEATURES
+## FEATURES
 
 - Detect failed login attempts
 - Detect SSH login attacks
@@ -16,7 +16,7 @@ This project demonstrates basic Security Operations Center (SOC) log analysis us
 - Simple menu interface
 - Works on Kali Linux and other journalctl systems
 
-#INSTALLATION
+## INSTALLATION
 
 git clone https://github.com/tanjironezuko1900/TanjiroLogAnalysis.git
 
@@ -26,14 +26,14 @@ sudo chmod +x install.sh
 
 sudo bash install.sh
 
-#USAGE
+## USAGE
 
 chmod +x tanjirologanalyser.sh
 
 sudo bash tanjirologanalyser.sh
 
 
-#TESTING
+## TESTING
 
 Create test user:
 
@@ -47,7 +47,7 @@ SSH Login:
 
 ssh testuser@YOUR_IP
 
-#REQUIREMENTS
+## REQUIREMENTS
 
 - Linux (Kali / Ubuntu / Debian / CentOS)
 - journalctl (you probably have that)
